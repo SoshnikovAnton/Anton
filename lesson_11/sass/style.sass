@@ -1,0 +1,104 @@
+*
+	box-sizing: border-box
+body
+	font-family: 'Muller', sans-serif
+	background: #f4f4f4 url(../img/background.png)
+.fatty
+	font-family: "Muller" sans-serif
+	font-weight: 700
+	&_price
+		font-size: 20px
+		font-weight: 700
+.dully
+	color: #393939
+	font-size: 14px		
+.section
+  padding-top: 100px;
+  padding-bottom: 100px	
+.container
+	width: 1000px
+	
+	margin: 0 auto
+	text-align: center
+ &::after
+	content: ''
+	display: table
+			
+	&_title
+		text-align: center
+		color: #6c1c02
+		font-family: "Muller Bold",sans-serif
+		font-size: 30px
+		font-weight: 400
+		line-height: 44px
+		margin-bottom: 45px
+	&_disc
+		text-align: center
+		color: #000000
+		font-family: "Muller Regular", sans-serif
+		font-size: 18px
+		font-weight: 400
+		line-height: 24px
+		margin: 0
+	&-price
+		vertical-align: top
+		min-height: 33px
+		color: #393939
+		font-size: 18px
+		margin-bottom: 17px
+		line-height: 30px
+		font-family: "Muller Medium", sans-serif
+		font-weight: 500
+
+			
+	&-wrap
+		display: inline-block
+		min-width: 250px
+		height: 519px
+		box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05)
+		background-color: #ffffff
+		padding-top: 49px
+		margin: 50px 25px
+		vertical-align: top
+		&-box
+			
+		&-img
+			text-align: center
+			min-height: 337px
+			margin-bottom: 29px
+		&-subtitle
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1; 
+			margin-bottom: 30px;
+			olor: #393939;
+			max-height: 15px
+			
+
+button
+	width: 523px
+	height: 75px
+	box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15)
+	background-color: #e70000
+	color: #ffffff
+	font-family: "Muller Bold", sans-serif
+	font-size: 18px
+	font-weight: 400
+	line-height: 44p
+@media(max-width: 1200px)
+	.container
+		width: 1000px
+@media(max-width: 992px)
+	.container
+		width: 600px
+@media(max-width: 768px)
+	.container
+		width: 300px
+	button
+		width: 499px
+@media(max-width: 768px) and (min-width: 767px)
+	.container
+		width: 250px
+	button
+		width: 25px		
+

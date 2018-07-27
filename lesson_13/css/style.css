@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  background-color: #ffffff;
+  padding: 15px 0; }
+  .header-contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header-contacts__phone {
+      font-size: 22px;
+      margin-right: 13px; }
+      .header-contacts__phone:first-child {
+        border-right: 1px solid #cfcfd0;
+        padding-right: 13px; }
+
+.header-contacts__button {
+  font-size: 14px;
+  background-color: #ff9d00;
+  border: none;
+  color: #ffffff;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif; }
+  .header-contacts__button:hover {
+    background-color: #ffa71a;
+    cursor: pointer; }
+  .header-contacts__button img {
+    vertical-align: middle; }
+
+body {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.main {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  background: #373737 url(../img/main/main-bg.jpg) center no-repeat;
+  color: #ffffff;
+  z-index: 1; }
+  .main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0; }
+  .main-img {
+    position: relative; }
+  .main-text__title {
+    margin-bottom: 20px;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 42px;
+    font-family: "Roboto - Bold"; }
+  .main-text__subtitle {
+    font-size: 28px;
+    font-weight: 400; }

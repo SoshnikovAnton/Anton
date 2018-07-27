@@ -1,0 +1,27 @@
+.header
+	background-color: $text-color-light
+	padding: 15px 0
+	&-contacts
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		&__phone
+			font-size: 22px
+			margin-right: 13px
+			&:first-child
+				border-right: 1px solid #cfcfd0
+				padding-right: 13px
+
+.header-contacts__button
+	font-size: 14px
+	background-color: $activ-color
+	border: none
+	color: $text-color-light
+	padding: 13px 22px
+	border-radius: 5px
+	font-family: 'Roboto', sans-serif
+	&:hover
+		background-color: lighten($activ-color, 5)
+		cursor: pointer
+	img
+		vertical-align: middle
